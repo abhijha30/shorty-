@@ -1,0 +1,17 @@
+.hidden {
+  display: none;
+}
+
+.qr-box {
+  margin-top: 20px;
+}
+
+.qr-box img {
+  width: 200px;
+  height: 200px;
+}
+
+.qr-box a {
+  display: block;
+  margin-top: 10px;
+}
