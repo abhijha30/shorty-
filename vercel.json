@@ -1,0 +1,11 @@
+{
+  "functions": {
+    "api/*.py": {
+      "runtime": "python3.9"
+    }
+  },
+  "routes": [
+    { "src": "/api/shorten", "dest": "/api/shorten.py" },
+    { "src": "/(.*)", "dest": "/api/redirect.py" }
+  ]
+}
