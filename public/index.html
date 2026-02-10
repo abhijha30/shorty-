@@ -1,0 +1,19 @@
+<main>
+  <input
+    type="url"
+    id="urlInput"
+    placeholder="Paste long URL here"
+  />
+
+  <button onclick="shorten()">Shorten</button>
+
+  <div id="result" class="hidden">
+    <p><strong>Short URL</strong></p>
+    <a id="shortLink" target="_blank"></a>
+
+    <div class="qr-box">
+      <img id="qrImage" />
+      <a id="downloadQR" download="shorty-qr.png">Download QR</a>
+    </div>
+  </div>
+</main>
